@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Html exploring Georgi l 18088546
+		</title>
+
+		<style>
+
+			body {
+				color: red;
+			}
+
+			h1 {
+				font-family: Arial, sans-serif;
+				font-size: 32px;
+				color: black;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<h1>My first web page</h1>
+		<p>This is my first web page, blablablabla, it has basic elements, bla. </p>
+		<button id="color">Change this color!</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script type="text/javascript">
+			document.getElementById('color').onclick = changeColor;
+			var currentColor = "red";
+				function changeColor () {
+					if(currentColor == 'red'){
+						document.body.style.color = "green";
+					  } else {
+					  	document.body.style.color = "red";
+					  	currentColor = "red"
+					  return currentColor ;
+					
+				}
+				}
+		</script>
+	</body>
+</html>
+
+
