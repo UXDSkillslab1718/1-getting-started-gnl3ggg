@@ -1,0 +1,115 @@
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* Global styles 
+------------------------------------*/
+body {
+    background: #8D99AE;
+}
+
+/*TYPOGRAPHY */
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-size: 40px;
+}
+h1 {
+  font-size: 80px;
+}
+p{
+	color: #ffffff;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header, 
+footer {
+  background: linear-gradient(90deg, rgba(1,0,15,1) 0%, rgba(13,13,122,0.4433123591233369) 10%, rgba(0,212,255,1) 100%);
+  color: #8D99AE;
+}
+header h1,
+ h2,
+p.intro {
+  color: #EDF2F4;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+p.intro{
+  margin-bottom: 5%;
+}
+
+div.contact-source{
+  text-align: center;
+}
+a.contact-source{
+  padding: 1%;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+
+img.banner{
+    min-height: 100px;
+    max-height: 400px;
+    background: repeat-x 0 0 transparent;
+    /* position: absolute; */
+    width: 100%;
+    border: 0 none transparent;
+    outline: 0 none transparent;
+    -webkit-transform: translate3d(0,0,0.01);
+    transform: translate3d(0,0,0.01);
+    will-change: transform;
+    opacity: 0.9;
+    /* z-index: 1; */
+    /* margin-bottom: 20%; */
+}
+
+/* Work Experience
+------------------------------------*/
+.work {
+  background: linear-gradient(90deg, rgba(1,0,15,1) 0%, rgba(13,13,122,0.4433123591233369) 10%, rgba(0,212,255,1) 100%);
+}
+
+
+
+/* Education
+------------------------------------*/
+.education {
+  background: linear-gradient(90deg, rgba(1,0,15,1) 0%, rgba(13,13,122,0.4433123591233369) 10%, rgba(0,212,255,1) 100%);
+}
