@@ -1,0 +1,66 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #8D99AE;
+}
+
+/*TYPOGRAPHY */
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+}
+h2 {
+  font-size: 40px;
+}
+h1 {
+  font-size: 80px;
+}
+p{
+	color: #ffffff;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header, 
+footer {
+  background: linear-gradient(90deg, rgba(1,0,15,1) 0%, rgba(13,13,122,0.4433123591233369) 10%, rgba(0,212,255,1) 100%);
+  color: #8D99AE;
+}
+header h1,
+header h2 {
+  color: #EDF2F4;
+}
+
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+  background: linear-gradient(90deg, rgba(1,0,15,1) 0%, rgba(13,13,122,0.4433123591233369) 10%, rgba(0,212,255,1) 100%);
+}
+
+
+
+/* Education
+------------------------------------*/
+.education {
+  background: linear-gradient(90deg, rgba(1,0,15,1) 0%, rgba(13,13,122,0.4433123591233369) 10%, rgba(0,212,255,1) 100%);
+}
